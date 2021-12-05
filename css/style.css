@@ -1,0 +1,595 @@
+
+
+
+
+/* ESTILOS GERAIS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Poppins;
+    background-color: #000000;
+}
+
+.cor{
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+    background-color: #410c72;
+    width: 90%;
+    margin: 50px auto 0 auto;
+    padding: 30px;
+    color: #fff;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+
+.mt{
+    margin-top: 190px;
+}
+
+/* Menu Fixo */
+
+.fixo{
+    width: 20%;
+    padding: 10px 5px ;
+    border-radius: 8px;
+    background-color:#f3f3f3;
+    text-align: center;
+    position: fixed;
+    border: solid 5px #410c72;
+}
+.fixo figure img{
+    width: 90%;
+}
+
+.fixo a {
+    color: #000;
+    font-size: 20px;
+}
+.fixo a:hover{
+    color: #410c72;
+}
+
+
+
+/* COMEÇO MAIN */
+
+.conteudo{
+    width: 75%;
+    float: right;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    /* -webkit-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 30px; */
+    padding: 3%;
+    border: solid 5px #30045a;
+}
+
+/* Apresentação */
+
+.apresentacao{
+    display: flex;
+    align-items:center;
+}
+
+.imgApresentacao{
+    width: 20%;
+}
+.imgApresentacao imgMenino{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+}
+
+.text h1 a{
+    font-size:70px;
+    color: #000;
+}
+.text h1 a:hover{
+    color: #30045a;
+}
+
+.text p {
+    margin: 15px 0;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+/* Experiências */
+
+.experiencias{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.textImg{
+    padding: 15% 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.textImg img{
+    margin: 0 4% 0 0 ;
+    width: 20%;
+    height: 20%;
+}
+
+.imgExperiencias{
+    width: 40%;
+}
+.imgMenino{
+    width:70%;
+}
+
+/* Minhas Formações */
+
+.formacoes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.imgFormacoes{
+    width: 30%;
+}
+.imgAcademico{
+    width: 100%;
+}
+
+.textFormacoes{
+    display: flex;
+    align-items: center;
+}
+
+.escola{
+    width: 10%;
+    height: 10%;
+}
+
+.pp{
+    padding: 3%;
+}
+
+
+/* Currículo */
+
+.textCurriculo{
+    text-align: center;
+    width: 100%;
+}
+
+.textCurriculo h1 a{
+    font-size:70px;
+    color: #000;
+}
+
+.textCurriculo h1 a:hover{
+    color: #033030;
+}
+
+
+/* Portfólio */
+
+.portfolio{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 5%;
+}
+
+.altura{
+    height:500px;
+}
+
+.buttons{
+    padding: 20px 80px;
+    border-radius: 30px;
+    color: #fff;
+    margin: auto;
+}
+.buttons:hover{
+    padding: 22px 90px;
+}
+
+.buttonVerde{
+    position: absolute;
+    top: 0;
+    left: 32%;
+    background-color:rgb(1, 32, 19);
+}
+
+.buttonVerde:hover{
+    background-color:rgb(5, 59, 37);
+}
+
+.buttonLaranja{
+    position: absolute;
+    top: 23%;
+    left: 58%;
+    background-color:rgb(119, 46, 17);
+}
+
+.buttonLaranja:hover{
+    background-color:rgb(182, 69, 24);
+} 
+
+.buttonMarrom{
+    position: absolute;
+    top: 100%;
+    left: 32%;
+    background-color:rgb(46, 23, 15);
+}
+
+.buttonMarrom:hover{
+    background-color:rgb(90, 50, 36);
+}
+
+.buttonAzul{
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    background-color:rgb(4, 17, 53);
+}
+
+.buttonAzul:hover{
+    background-color:rgb(8, 30, 88);
+}
+
+.buttonVermelhoEscuro{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    background-color: rgb(39, 8, 8)
+}
+
+.buttonVermelhoEscuro:hover{
+    background-color: rgb(77, 18, 18)
+}
+
+.buttonAzulClaro{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    background-color: rgb(20, 124, 168);
+}
+
+.buttonAzulClaro:hover{
+    background-color: rgb(29, 187, 255);
+}
+
+.buttonVerdeClaro{
+    position: absolute;
+    top: 23%;
+    left: 11%;
+    background-color: rgb(8, 138, 29);
+}
+
+.buttonVerdeClaro:hover{
+    background-color: rgb(16, 209, 48);
+}
+
+.bgEscuro{
+    background-color:rgb(0, 0, 0);
+    border: none;
+}
+
+.mb{
+    margin-bottom: 190px;
+}
+
+
+
+/* Atividades */
+
+.atividades{
+    width: 93%;
+    margin: 50px auto 0 auto;
+}
+
+.cardsAtividades{
+    display: flex;
+    width: 100%;
+}
+
+.cards{
+    background-color:#0e0e0ee5;
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    border: solid 0.5px #410c72;
+}
+
+.cards:hover{
+    border: solid 0.5px #7b0fe0;
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+}
+
+.cards p a{
+    color:#7b0fe0;
+}
+
+.pmt{
+    margin-top: 20px;
+}
+
+.pmb{
+    margin-bottom: 20px;
+}
+
+.mmt{
+    margin-top: 200px;
+}
+
+
+
+/* Footer */
+
+
+footer{
+    color: #fff;
+    width: 100%;
+    float: right;
+    background-color: #410c72;
+    height: 130px;
+}
+
+.imgs{
+    text-align: center;
+}
+
+.imgFooter{
+    padding:30px 3px;
+    width: 70px;
+}
+.imgs img:hover{
+    transition: all .1s;
+    width: 80px;
+}
+
+/* Animações */
+
+[data-anime]{
+    opacity: 0;
+    transition: .2s
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px 0px 0px);
+}
+
+[data-anime="right"]{
+    transform: translate3d(200px 0px 0px);
+}
+
+[data-anime="top"]{
+    transform: translate3d(0px -500px 0px)
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px 0px 0px);
+}
+
+#iTitle::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+/* Responsividade */
+
+@media screen and (max-width: 1420px){
+
+    .text p {
+        font-size: 13px;
+    }
+
+    .imgSorriso{
+        width: 80%;
+    }
+    .text h1 a{
+        font-size: 50px;
+    }
+    .textCurriculo h1 a{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .imgExperiencias{
+        display: none;
+    }
+    .textImg{
+        padding: 10% 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
+    .cards p a{
+        font-size: 13px;
+    }
+    .imgFormacoes{
+        display: none;
+    }
+    .text h1 a{
+        font-size: 40px;
+    }
+    .textCurriculo h1 a{
+        font-size: 40px;
+    }
+    
+    .imgSorriso{
+        width: 75%;
+    }
+    .fixo{
+        display: none;
+    }
+    .container{
+        margin: 0 0 0 -46px;
+    }
+    .portfolio{
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .imgSorriso{
+        display: none;
+    }
+    .buttons{
+        font-size:13px ;
+        padding: 15px 60px;
+    }
+    .buttons:hover{
+        font-size:13px ;
+        padding: 15px 60px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    .cards p a{
+        font-size: 11px;
+    }
+    .text h1 a{
+        font-size: 30px;
+    }
+    .textCurriculo h1 a{
+        font-size: 30px;
+    }
+    .textImg{
+        padding: 0px 0 0 0 ;
+    }
+}
+
+@media screen and (max-width: 635px){
+    #iTitle{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    #iTitle{
+        font-size: 18px;
+    }
+    .textImg p {
+        font-size: 10px;
+    }
+    .textImg img{
+        width:25%;
+        height: 25%;
+    }
+    .text h1 a{
+        font-size: 25px;
+    }
+    .conteudo {
+        width: 80%;
+        margin: auto;
+    }
+    .mt{
+        margin-top:30px;
+    }
+    .container{
+        margin-left: 0px;
+    }
+    .conteudo{
+        width: 90%;
+    }
+    .cards p a{
+        font-size: 9px;
+    }
+    .buttons{
+        margin: auto;
+    }
+    .buttonVerde{
+        top: 200px;
+        left: 0;
+    }
+    .buttonVerdeClaro{
+        top: 300px;
+        left: 0px;
+    }
+    .buttonLaranja{
+        top: 100px;
+        left: 0px;
+    }
+    .buttonVermelhoEscuro{
+        top: 0px;
+        left: 0;
+    }
+    .buttonAzulClaro{
+        top: 250px;
+        left: 0;
+    }
+    .buttonAzul{
+        top: 50px;
+        left: 0;
+    }
+    .buttonMarrom{
+        top: 150px;
+        left: 0;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .cardsAtividades {
+        flex-direction: column;
+    }
+    .cards{
+        width: 70%;
+        height: 70%;
+        margin-bottom: 30px;
+    }
+    .pmt{
+        margin-top:0
+    }
+    .mmt{
+        margin-top: 50px;
+    }
+    .cards p a{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    #iTitle{
+        font-size: 11px;
+    }
+}
