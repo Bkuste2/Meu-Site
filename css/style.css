@@ -478,6 +478,7 @@ footer{
         position: fixed;
         right: 0;
         top: 7;
+        z-index: 20000;
     }
     #hamburguer{
         width: 100%;
