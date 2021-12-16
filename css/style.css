@@ -690,10 +690,10 @@ footer{
     #iTitle{
         font-size: 17px;
     }
-    #nav.active #btn-mobile, #btn-mobile {
-        width: 30px;
-        height: 30px;
-    }
+        #nav.active #btn-mobile, #btn-mobile {
+            width: 30px;
+            height: 30px;
+        }
 }
 
 @media screen and (max-width: 370px){
@@ -706,16 +706,24 @@ footer{
     #iTitle{
         font-size: 14px;
     }
+    #nav.active #btn-mobile, #btn-mobile {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 315px){
     #iTitle{
         font-size: 13px;
     }
+    #nav.active #btn-mobile, #btn-mobile {
+        width: 25px;
+        height: 25px;
+    }
 }
 
-@media screen and (max-width: 315px){
+@media screen and (max-width: 300px){
     #iTitle{
         font-size: 11.95px;
-    }
+    } 
 }
