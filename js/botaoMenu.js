@@ -1,8 +1,26 @@
-const btnMobile = document.querySelector('#btn-mobile')
+const btnMobile = document.querySelector("#btn-mobile")
 
-function toggleMenu() {
-    const nav = document.querySelector('#nav')
+const nav = document.querySelector("#nav")
+
+const desaparecer = document.querySelector(".desaparecer")
+
+const button = document.getElementById("btn-mobile")
+
+button.addEventListener("click", () =>{
     nav.classList.toggle('active')
-}
+    desaparecer.classList.toggle('display')
+});
 
-btnMobile.addEventListener('click', toggleMenu)
+desaparecer.addEventListener('click', function(){
+    desaparecer.classList.remove('display')
+    nav.classList.remove("active")  
+});
+
+
+
+    
+
+
+
+
+

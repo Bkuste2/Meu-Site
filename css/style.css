@@ -14,8 +14,10 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
 }
 body{
+    position: relative;
     font-family: Poppins;
     background-color: #000000;
+    z-index: 0
 }
 
 
@@ -79,7 +81,24 @@ body{
 /* Botão Menu */
 
 #btn-mobile{
+    position: relative;
     display: none;
+    z-index: 999
+}
+
+.desaparecer{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+#nav{
+    position: relative;
+    z-index: 0;
 }
 
 #nav.active .fixo{
