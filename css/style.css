@@ -17,14 +17,15 @@ body{
     position: relative;
     font-family: Poppins;
     background-color: #000000;
-    z-index: 0
+    z-index: 0;
+    --cor-principal: #410c72;
 }
 
 
 .cor{
     -webkit-border-top-right-radius: 30px;
     -webkit-border-top-left-radius: 30px;
-    background-color: #410c72;
+    background-color: var(--cor-principal);
     width: 90%;
     margin: 50px auto 0 auto;
     padding: 30px;
@@ -50,7 +51,7 @@ body{
     background-color:#f3f3f3;
     text-align: center;
     position: fixed;
-    border: solid 5px #410c72;
+    border: solid 5px var(--cor-principal);
 }
 .fixo figure img{
     width: 90%;
@@ -61,7 +62,7 @@ body{
     font-size: 20px;
 }
 .fixo a:hover{
-    color: #410c72;
+    color: var(--cor-principal);
 }
 
 
@@ -75,7 +76,7 @@ body{
     /* -webkit-border-top-right-radius: 30px;
     -webkit-border-top-left-radius: 30px; */
     padding: 3%;
-    border: solid 5px #30045a;
+    border: solid 5px var(--cor-principal);
 }
 
 /* Botão Menu */
@@ -342,7 +343,7 @@ body{
     padding: 10px;
     border-radius: 5px;
     margin: auto;
-    border: solid 0.5px #410c72;
+    border: solid 0.5px var(--cor-principal);
 }
 
 .cards:hover{
@@ -379,7 +380,7 @@ footer{
     color: #fff;
     width: 100%;
     float: right;
-    background-color: #410c72;
+    background-color: var(--cor-principal);
     height: 141px;
 }
 
@@ -744,5 +745,5 @@ footer{
 @media screen and (max-width: 300px){
     #iTitle{
         font-size: 11.95px;
-    } 
+    }
 }
