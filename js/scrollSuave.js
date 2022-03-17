@@ -13,10 +13,21 @@ function getScrollTopByHref(element) {
     return document.querySelector(id).offsetTop
 }
 
+let jaFoiClicado = false;
+let body = document.querySelector('body')
+
 function scrollToIdOnClick(event) {
+  if (!jaFoiClicado) {
     event.preventDefault()
     const to = getScrollTopByHref(event.target) - 80
     scrollToPosition(to)
+    jaFoiClicado = true
+    body.style.overflowY = 'hidden'
+    setTimeout(()=>{
+      jaFoiClicado = false
+      body.style.overflowY = 'visible'
+    }, 1100)
+  }
 }
 
 function scrollToPosition(to) {
@@ -27,7 +38,7 @@ function scrollToPosition(to) {
      })
     */
 
-     smoothScrollTo(0,to,1300)
+    smoothScrollTo(0,to,1300)
 }
 
 
