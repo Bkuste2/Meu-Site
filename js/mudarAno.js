@@ -1,3 +1,7 @@
+const select = document.getElementById('selectAno');
+
+select.addEventListener('click', e => e.preventDefault())
+
 function mudarAno(){
     
     const select = document.getElementById("selectAno").value
