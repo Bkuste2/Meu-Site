@@ -7,18 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Matemática</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//assets.locaweb.com.br/locastyle/2.0.6/stylesheets/locastyle.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="cor">
         <h1 class="pTitle">Matemática</h1>
-        <select name="" id="selectAno" onchange="mudarAno()">
-            <option value="todos" class="opt">Todos os trabalhos</option>
-            <option value="1" class="opt">1° ano</option>
-            <option value="2" class="opt">2° ano</option>
-            <option value="3" class="opt">3° ano</option>
-        </select>
+        <form>
+            <select name="select-simples" class="ls-select" id="selectAno" onchange="mudarAno()">
+                <option value="1" >1° ano</option>
+                <option value="2" >2° ano</option>
+                <option value="3" >3° ano</option>
+            </select>
+          </form>
     </div>
 
     <div class="atividades">
@@ -96,6 +101,10 @@
 
     </div>
 
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="./js/maquinaDeEscrever.js"></script>
     <script src="./js/mudarAno.js"></script>
 </body>
