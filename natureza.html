@@ -7,19 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Natureza</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//assets.locaweb.com.br/locastyle/2.0.6/stylesheets/locastyle.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <a href="./index.html#portfolio">
+        <img id="voltarImg" src="./img/svg.svg" alt="">
+    </a>
     <div class="cor">
         <h1 class="pTitle">Natureza</h1>
+        <form>
+            <select name="select-simples" class="ls-select" id="selectAno" onchange="mudarAno()">
+                <option value="todos">Todos</option>
+                <option value="1" >1° ano</option>
+                <option value="2" >2° ano</option>
+                <option value="3" >3° ano</option>
+            </select>
+        </form>
     </div>
 
     <div class="atividades">
 
         <div class="cardsAtividades">
 
-            <div class="cards">
+            <div class="cards" ano="1">
                 <a href="https://www.canva.com/design/DAECeK98Wvk/YD4iMdKBXeJf0fUp3t6qTw/view?utm_content=DAECeK98Wvk&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank">
                     <img src="./img/Revista.png" alt="">
                 </a>
@@ -28,7 +43,7 @@
 
             </div>
 
-            <div class="cards">
+            <div class="cards" ano="1">
                 <a href="https://docs.google.com/presentation/d/1vdPzvHPGbf1p3KYO12Rm_HIpzoOdKKk9LsTHZZQ3vCA/edit?usp=sharing" target="_blank">
                     <img src="./img/atividadePersonagem.png" alt="">
                 </a>
@@ -37,7 +52,7 @@
 
             </div>
 
-            <div class="cards">
+            <div class="cards" ano="1">
                 <a href="https://view.genial.ly/5eb9f08ac692b40d6e50bb62/horizontal-infographic-lists-tarefa-natureza" target="_blank">
                     <img src="./img/origem universo.png" alt="">
                 </a>
@@ -46,42 +61,35 @@
 
             </div>
 
-        </div>
-
-        <div class="cardsAtividades pmt">
-
-            <div class="cards">
+            <div class="cards" ano="1">
                 <a href="https://gabizito-p.itch.io/electric-game" target="_blank">
                     <img src="./img/game.png" alt="">
                 </a>
                 <p><a href="https://gabizito-p.itch.io/electric-game" target="_blank">Game Eletricidade</a></p>
             </div>
             
-            <div class="cards">
+            <div class="cards" ano="1">
                 <a href="https://drive.google.com/file/d/1peRz67WPS0Jt4errW4HuUqlipLCfwJWA/view?usp=sharing" target="_blank">
                     <img src="./img/reações.png" alt="">
                 </a>
                 <p><a href="https://drive.google.com/file/d/1peRz67WPS0Jt4errW4HuUqlipLCfwJWA/view?usp=sharing" target="_blank">Química em nosso corpo</a></p>
             </div>
 
-            <div class="cards">
+            <div class="cards" ano="2">
                 <a href="https://drive.google.com/drive/folders/1Ih_6DCpFFXILZT1Wi80IRhSVFBd8Vnb1?usp=sharing" target="_blank">
                     <img src="./img/sapao.png" alt="">
                 </a>
                 <p><a href="https://drive.google.com/drive/folders/1Ih_6DCpFFXILZT1Wi80IRhSVFBd8Vnb1?usp=sharing" target="_blank">Atividade Bixo Doido</a></p>
             </div>
-        </div>
 
-        <div class="cardsAtividades pmt pmb">
-
-            <div class="cards">
+            <div class="cards" ano="2">
                 <a href="https://drive.google.com/file/d/1emJWRPEQQkHU3iLeHgPEGKbTvQyKre54/view?usp=sharing" target="_blank">
                     <img src="./img/Relatorio.png" alt="">
                 </a>
                 <p><a href="https://drive.google.com/file/d/1emJWRPEQQkHU3iLeHgPEGKbTvQyKre54/view?usp=sharing" target="_blank">Relatorio</a></p>
             </div>
 
-            <div class="cards">
+            <div class="cards" ano="2">
                 <a href="https://site-natureza.netlify.app/" target="_blank">
 
                     <img src="./img/Termodinamica.png" alt="">
@@ -89,7 +97,7 @@
                 <p><a href="https://site-natureza.netlify.app/" target="_blank">Máquina Termodinamica</a></p>
             </div>
 
-            <div class="cards">
+            <div class="cards" ano="2">
                 <a href="https://www.canva.com/design/DAEnW5LWwug/wsZmuT_Em2bgIb0JlVF-CQ/view?utm_content=DAEnW5LWwug&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" target="_blank">
                     <img src="./img/Desafio.png" alt="">
                 </a>
@@ -98,7 +106,12 @@
         </div>
     </div>
 
+    <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
     <script src="./js/maquinaDeEscrever.js"></script>
+    <script src="./js/mudarAno.js"></script>
 </body>
 
 </html>

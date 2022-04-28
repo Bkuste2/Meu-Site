@@ -17,7 +17,7 @@ let jaFoiClicado = false;
 let body = document.querySelector('body')
 
 function scrollToIdOnClick(event) {
-  if (!jaFoiClicado) {
+  if (jaFoiClicado == false) {
     event.preventDefault()
     const to = getScrollTopByHref(event.target) - 80
     scrollToPosition(to)
@@ -27,6 +27,9 @@ function scrollToIdOnClick(event) {
       jaFoiClicado = false
       body.style.overflowY = 'visible'
     }, 1100)
+  }
+  else{
+    event.preventDefault()
   }
 }
 

@@ -57,3 +57,11 @@ function mudarAno(){
         arrayCards.map(displayBlock)
     */
 }
+
+const voltar = document.getElementById('voltarImg')
+voltar.onmouseenter = (e) => {
+    e.target.src = "img/svgClaro.svg"
+}
+voltar.onmouseleave = (e) => {
+    e.target.src = "img/svg.svg"
+}

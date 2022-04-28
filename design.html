@@ -7,12 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Design</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//assets.locaweb.com.br/locastyle/2.0.6/stylesheets/locastyle.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <a href="./index.html#portfolio">
+        <img id="voltarImg" src="./img/svg.svg" alt="">
+    </a>
     <div class="cor">
         <h1 class="pTitle">Design</h1>
+        <form>
+            <select name="select-simples" class="ls-select " id="selectAno" onchange="mudarAno()">
+                <option value="todos">Todos</option>
+            </select>
+        </form>
     </div>
 
     <div class="atividades ">
@@ -45,9 +57,6 @@
 
             </div>
 
-        </div>
-        <div class="cardsAtividades pmt">
-
             <div class="cards">
                 <a href="https://drive.google.com/drive/folders/14WrPhmKjuWOORQKjLxyADTG_oqyOh3mK?usp=sharing" target="_blank">
                     <img src="./img/Montagem com texturas.png" alt="">
@@ -74,9 +83,6 @@
                 <p><a href="https://drive.google.com/drive/folders/1baZqHZSccMPeohOk6QOe61eJMTXJJlhb?usp=sharing" target="_blank">Calculadora</a></p>
 
             </div>
-
-        </div>
-        <div class="cardsAtividades pmt  pmb">
 
             <div class="cards">
                 <a href="https://drive.google.com/drive/folders/1O11yQQx3-vZ6EnKNvEIGED7jXfZkB9Ct?usp=sharing" target="_blank">
@@ -109,7 +115,12 @@
 
     </div>
 
+    <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
     <script src="./js/maquinaDeEscrever.js"></script>
+    <script src="./js/mudarAno.js"></script>
 </body>
 
 </html>

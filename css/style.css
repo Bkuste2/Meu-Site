@@ -19,6 +19,11 @@ body {
     --cor-principal: #410c72;
 }
 
+#voltarImg{
+    width: 150px;
+    margin-left: 5%;
+}
+
 
 .cor {
     -webkit-border-top-right-radius: 30px;
@@ -239,10 +244,6 @@ body {
     border-radius: 30px;
     color: #fff;
     margin: auto;
-}
-
-.buttons:hover {
-    padding: 22px 90px;
 }
 
 .buttonVerde {
@@ -578,6 +579,9 @@ footer {
     #btn-mobile {
         display: flex;
     }
+    .cor{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -597,6 +601,12 @@ footer {
 
     .mt {
         margin-top: 30px;
+    }
+    #voltarImg {
+        width: 100px;
+    }
+    .cor{
+        margin-top: 10px;
     }
 }
 
@@ -713,6 +723,9 @@ footer {
     #btn-mobile {
         width: 45px;
         height: 45px;
+    }
+    #voltarImg{
+        width: 70px ;
     }
 }
 
